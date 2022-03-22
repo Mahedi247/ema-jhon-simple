@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Cart.css'
 
 const Cart = ({ cart }) => {
@@ -24,6 +25,7 @@ const Cart = ({ cart }) => {
             <p>Total Shipping: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <p><strong>Grand Total: ${grandTotal.toFixed(2)}</strong></p>
+
         </div>
     );
 };

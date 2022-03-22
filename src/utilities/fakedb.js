@@ -43,7 +43,7 @@ const removeFromDb = id => {
     }
 }
 
-const deleteShoppingCart = () => {
+const deleteShoppingCart = (shoppingCart) => {
     localStorage.removeItem('shopping-cart');
 }
 
